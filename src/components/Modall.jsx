@@ -13,6 +13,9 @@ import { useNotesStore } from "../store";
     const cancel = () => {
     setModall(false);
     };
+    // const cancel = () => {
+    // setModall(false);
+    // };
 
 
     return ( <div className={`modall ${modall ? "active" : ""}`}> 
